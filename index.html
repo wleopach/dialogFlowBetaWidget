@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width-device-width, initial-scale=1">
+    <!-- dialogflow style bootsrap -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <style>
+        .text-center {
+            margin: 0;
+            padding:0;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translateX(-50%) translateY(-50%);
+        }    
+        
+        df-messenger {
+            --df-messenger-bot-message: #bdfcbf;
+            --df-messenger-button-titlebar-color: #7ec472;
+            --df-messenger-chat-background-color: #fafafa;
+            --df-messenger-font-color: black;
+            --df-messenger-send-icon: #7ec472;
+            --df-messenger-user-message: #7ec472;
+            }  
+    </style>
+
+</head>
+
+ <body>
+    <!-- center text in webpage -->
+    <div class="text-center">
+        <h1>Integración de chatbot</h1>
+    </div>
+    <!-- This is the main code for chatbot  -->
+    <!-- we can add more fields, refer: https://cloud.google.com/dialogflow/es/docs/integrations/dialogflow-messenger -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-title="Prueba chat bot "
+  agent-id="135dfa68-6e57-4492-92d7-38955f2c75c6"
+  language-code="es"
+></df-messenger>    
+</body>
+</html>
+
+
+
+
+
+
